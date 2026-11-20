@@ -87,7 +87,7 @@
       this.items = {};
       this.edges = [];
       this.idx = -1;
-      svg.setAttribute('viewBox', def.viewBox || '0 0 1000 600');
+      svg.setAttribute('viewBox', def.viewBox || '0 0 1000 640');
       const defs = el('defs', {}, svg);
       for (const m of MARKERS) {
         const mk = el('marker', { id: 'arr-' + m, viewBox: '0 0 10 10', refX: '9', refY: '5', markerWidth: '7', markerHeight: '7', orient: 'auto-start-reverse' }, defs);
